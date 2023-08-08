@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-stone-200 m-2
+}
+
+.btn {
+  @apply bg-stone-600 py-2 px-3 my-2 inline-block text-white rounded-md border-2 border-stone-600
+}
