@@ -1,10 +1,10 @@
 export default function ProjectCard(props) {
     return (
-        <div class="bg-white p-4 text-center rounded-md shadow-md">
+        <div class="bg-stone-50 p-4 text-center rounded-md shadow-md inline-block h-[42rem] w-[42rem]">
             <h2 class="text-4xl">{props.name}</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis eligendi commodi quidem tempora quas ratione.</p>
-            <button class="btn">press this</button>
             {props.children}
         </div>
+
     )
 }
