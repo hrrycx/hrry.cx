@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.8.2",
-    "solid-js": "^1.7.6"
+    "solid-js": "^1.7.6",
+    "tailwindcss-animate": "^1.0.6"
   }
 }

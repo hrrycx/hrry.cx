@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-stone-200 m-2
+  @apply bg-stone-200
 }
 
 .btn {
