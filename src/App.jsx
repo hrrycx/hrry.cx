@@ -1,8 +1,6 @@
 import { Route, Routes, A } from "@solidjs/router";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
 import About from "./pages/About";
-import { createSignal } from "solid-js";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,14 +11,12 @@ function App() {
         <nav class="animate-in slide-in-from-top-full duration-500 p-2 text-xl flex items-stretch float-right gap-5 font-tinos drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)">
           <A class="transition duration-500 hover:scale-125" href="/">about</A>
           <A class="transition duration-500 hover:scale-125" href="/projects">projects</A>
-          <A class="transition duration-500 hover:scale-125" href="/contact">contact</A>
         </nav>
       </header>
 
       <Routes>
         <Route path="/" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
       </Routes>
       <Footer />
 
