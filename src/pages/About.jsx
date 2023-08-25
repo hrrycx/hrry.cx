@@ -24,8 +24,8 @@ export default function About() {
         <div>
 
             <div>
-                <div class="relative group animate-in zoom-in duration-500 p-4">
-                    <div class="absolute -inset-0.5 bg-stone-700 opacity-75 p-8 mx-12 rounded-md blur-xl transition duration-500 group-hover:opacity-100"></div>
+                <div class="relative group animate-in zoom-in duration-500 p-2">
+                    <div class="absolute -inset-0.5 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 opacity-75 p-8 mx-12 rounded-md blur-md transition duration-500 group-hover:opacity-100"></div>
                     <div class="relative bg-stone-100 p-4 mx-12 rounded-md text-center font-tinos">
                         <h2 class="text-5xl pb-4 ">hey! i'm harry, a 17-year-old student and aspiring software engineer from england.</h2>
                         <h3 class="text-2xl pb-4">i have been coding for years, and my desire is fueled by that of to solve problems, and lately to visualise the beauty of mathematics.</h3>
@@ -35,8 +35,8 @@ export default function About() {
 
             <div>
                 <div class=" flex flex-row pt-12 justify-center">
-                    <div class="relative group p-4 w-full animate-in zoom-in duration-500">
-                        <div class="absolute -inset-0.5 bg-stone-700 opacity-75 p-8 mx-12 rounded-md blur-xl transition duration-500 group-hover:opacity-100"></div>
+                    <div class="relative group p-2 w-full animate-in zoom-in duration-500">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400  opacity-75 mx-12 rounded-md blur-md transition duration-500 group-hover:opacity-100"></div>
 
                         <div class="relative bg-stone-100 h-full mx-12 rounded-md text-center font-tinos ">
 
@@ -75,8 +75,8 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div class="relative group p-4 w-full animate-in zoom-in duration-500">
-                        <div class="absolute -inset-0.5 bg-stone-700 opacity-75 p-8 mx-12 rounded-md blur-xl transition duration-500 group-hover:opacity-100 "></div>
+                    <div class="relative group p-2 w-full animate-in zoom-in duration-500">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400  opacity-75 p-8 mx-12 rounded-md blur-md transition duration-500 group-hover:opacity-100 "></div>
 
                         <div class="relative bg-stone-100 mx-12 h-full rounded-md font-tinos text-center">
                             <h1 class="text-4xl underline"> grades</h1>

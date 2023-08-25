@@ -7,10 +7,18 @@ function App() {
   return (
     <div class="bg-gradient-to-tr from-stone-50 to-stone-400 h-screen w-screen">
       <header class="pb-48">
-        <h1 class="animate-in slide-in-from-left-full duration-500 text-stone-800 text-9xl font-tinos my-0 p-0 float-left drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] ">harry cox</h1>
-        <nav class="animate-in slide-in-from-top-full duration-500 p-2 text-xl flex items-stretch float-right gap-5 font-tinos drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)">
-          <A class="transition duration-500 hover:scale-125" href="/">about</A>
-          <A class="transition duration-500 hover:scale-125" href="/projects">projects</A>
+        <h1 class="absolute animate-in slide-in-from-left-full duration-500 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent text-9xl font-tinos my-[16px] mx-[5px] blur-sm float-left">harry cox</h1>
+        <h1 class="absolute animate-in slide-in-from-left-full duration-500 text-stone-800 text-9xl font-tinos my-[11px] p-0 float-left ">harry cox</h1>
+
+        <nav class="animate-in slide-in-from-top-full duration-500 text-xl font-tinos">
+          <div class="group">
+            <A class="absolute right-[110px] top-[6px] bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent transition duration-500 group-hover:scale-125" href="/">about</A>
+            <A class="absolute right-28 top-1 transition duration-500 group-hover:scale-125" href="/">about</A>
+          </div>
+          <div class="group">
+            <A class="absolute right-[22px] top-[6px] bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent transition duration-500 group-hover:scale-125" href="/projects">projects</A>
+            <A class="absolute right-6 top-1 transition duration-500 group-hover:scale-125" href="/projects">projects</A>
+          </div>
         </nav>
       </header>
 
