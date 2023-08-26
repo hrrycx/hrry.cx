@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-stone-200
+  @apply bg-gradient-to-tr from-stone-200 to-stone-400 h-screen w-screen overscroll-none
 }
 
 .btn {

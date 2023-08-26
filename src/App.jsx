@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div class="bg-gradient-to-tr from-stone-50 to-stone-400 h-screen w-screen">
+    <div class="h-screen w-screen backdrop-blur-xl ">
       <header class="pb-48">
         <h1 class="absolute animate-in slide-in-from-left-full duration-500 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent text-9xl font-tinos my-[16px] mx-[5px] blur-sm float-left">harry cox</h1>
         <h1 class="absolute animate-in slide-in-from-left-full duration-500 text-stone-800 text-9xl font-tinos my-[11px] p-0 float-left ">harry cox</h1>
