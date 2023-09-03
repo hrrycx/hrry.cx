@@ -9,6 +9,7 @@ import css from "../assets/css.png";
 import egui from "../assets/egui.png";
 import winforms from "../assets/winforms.png";
 import wpf from "../assets/wpf.png";
+import Footer from "../components/Footer";
 
 import icon from "../assets/favicon.ico";
 
@@ -21,8 +22,8 @@ export default function About() {
         //     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis eligendi commodi quidem tempora quas ratione.</p>
         //     {props.children}
         // </div>
-        <div>
-
+        <div class="h-full">
+            <div class="pb-10" />
             <div>
                 <div class="relative group animate-in zoom-in duration-500 p-2">
                     <div class="absolute -inset-0.5 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 opacity-75 p-8 mx-12 rounded-md blur-md transition duration-500 group-hover:opacity-100"></div>
@@ -114,6 +115,8 @@ export default function About() {
                 </div>
 
             </div>
+            <div class="h-40"></div>
+            <Footer />
         </div>
     )
 }

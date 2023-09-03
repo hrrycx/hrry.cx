@@ -3,9 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gradient-to-tr from-stone-200 to-stone-400 h-screen w-screen overscroll-none
-}
-
-.btn {
-  @apply bg-stone-600 py-2 px-3 my-2 inline-block text-white rounded-md border-2 border-stone-600
+  @apply bg-gradient-to-tr from-stone-200 to-stone-400 min-h-screen scrollbar scrollbar-thumb-stone-600 scrollbar-track-stone-100
 }
