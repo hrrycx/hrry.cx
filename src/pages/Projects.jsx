@@ -8,9 +8,10 @@ import Footer from "../components/Footer";
 export default function Projects() {
     return (
         <div>
-            <div class="grid grid-cols-2 items-center">
+            <div class="h-20 w-full"></div>
+            <div class="grid 2xl:grid-cols-2 items-center">
 
-                <div class="ml-40 items-center">
+                <div class="sm:ml-10 2xl:ml-36 items-center">
                     <Component1>
                         <div class="px-5 pt-5 pb-3 items-center">
                             <img class="rounded-lg h-[50%]" src={mandel} alt="icon"></img>
@@ -31,7 +32,7 @@ export default function Projects() {
                         </div>
                     </Component1>
                 </div>
-                <div class="ml-40 items-center">
+                <div class="sm:ml-10 2xl:ml-36 items-center">
                     <Component1>
                         <div class="px-5 pt-5 pb-3 items-center">
                             <img class="rounded-lg" src={render} alt="icon"></img>
@@ -51,7 +52,7 @@ export default function Projects() {
                         </div>
                     </Component1>
                 </div>
-                <div class="ml-40 items-center">
+                <div class="sm:ml-10 2xl:ml-36 items-center">
                     <Component1>
                         <div class="px-5 pt-5 pb-3 ">
                             <img class="rounded-lg w-[50%] mx-auto" src={marble} alt="icon"></img>
@@ -70,7 +71,7 @@ export default function Projects() {
                         </div>
                     </Component1>
                 </div>
-                <div class="ml-40 items-center">
+                <div class="sm:ml-10 2xl:ml-36 items-center">
                     <Component1>
                         <div class="px-5 pt-5 pb-3 ">
                             <img class="rounded-lg w-[50%] mx-auto" src={gol} alt="icon"></img>

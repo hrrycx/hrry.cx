@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gradient-to-tr from-stone-200 to-stone-400 min-h-screen scrollbar scrollbar-thumb-stone-600 scrollbar-track-stone-100
+  @apply bg-gradient-to-tr from-stone-200 to-stone-400 scrollbar scrollbar-thumb-stone-600 scrollbar-track-stone-100
 }

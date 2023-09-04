@@ -14,8 +14,6 @@ export default function Footer() {
         <a class="rounded-full" href="https://github.com/hrrycx">
             <img class=" h-10 w-10 bg-stone-100 shadow-stone-500 shadow-lg hover:shadow-stone-900 transition duration-500 rounded-full mx-3" src={github} alt="icon" />
         </a>
-        <p>&nbsp &nbsp harry cox, 2023.&nbsp</p>
-        <a class="hover:underline" href="https://github.com/hrrycx/hrry.cx">hosted with github pages.</a>
     </footer>
 }
 
