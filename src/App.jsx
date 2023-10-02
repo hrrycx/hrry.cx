@@ -12,8 +12,8 @@ function App() {
 
         <nav class="animate-in slide-in-from-top-full duration-500 text-xl font-tinos">
           <div class="group">
-            <A class="absolute right-[110px] top-[6px] bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent transition duration-500 group-hover:scale-125" href="/">about</A>
-            <A class="absolute right-28 top-1 transition duration-500 group-hover:scale-125" href="/">about</A>
+            <A class="absolute right-[118px] top-[6px] bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent transition duration-500 group-hover:scale-125" href="/">about</A>
+            <A class="absolute right-[120px] top-1 transition duration-500 group-hover:scale-125" href="/">about</A>
           </div>
           <div class="group">
             <A class="absolute right-[30px] top-[6px] bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent transition duration-500 group-hover:scale-125" href="/projects">projects</A>
